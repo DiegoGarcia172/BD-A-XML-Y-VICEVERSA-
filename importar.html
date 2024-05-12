@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraer y Guardar en XML</title>
+</head>
+<body>
+    <h2>Extraer Datos y Guardar en XML</h2>
+    <form action="procesarexportar.php" method="post">
+        <label for="tabla">Selecciona la tabla:</label>
+        <select id="tabla" name="tabla" required>
+            <option value="productos">Productos</option>
+            <!-- Agrega más opciones según las tablas de tu base de datos -->
+        </select>
+        <br>
+        <button type="submit">Extraer y Guardar en XML</button>
+    </form>
+</body>
+</html>

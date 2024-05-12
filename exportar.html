@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De xml a BD y viceversa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="procesarDI.php" method="post" enctype="multipart/form-data">
+        <label for="idproducto">ID:</label>
+        <input type="text" name="ID" id="IdP">
+
+        <label for="nombredelprdocuto">Producto:</label>
+        <input type="text" name="nombredelprdocuto" id="txtNP">
+    
+        <label for="CantidadProducto">Cantidad:</label>
+        <input type="text" name="CantidadProducto" id="txtcp">
+        
+        <label for="CostoDelProducto">Costo:</label>
+        <input type="text" name="CostoDelProducto"  id="txtCostodP">
+    
+        <label for="CodigoDeBarras">Codigo de barras:</label>
+        <input type="text" name="CodigoDeBarras"  id="txtcdb">
+    
+        <label for="imagenProducto">Imagen:</label>
+        <input type="file" name="imagenProducto" id="imagenProducto">
+    
+        <input type="submit" value="Cargar datos" id="btnCargar">
+    </form>
+    
+</body>
+</html>
